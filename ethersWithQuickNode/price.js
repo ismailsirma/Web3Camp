@@ -1,7 +1,7 @@
 var ethers = require('ethers')
-var url = 'HTTP://127.0.0.1:7545' // ADD_YOUR_ETHEREUM_NODE_URL QUICKNODE ETC
+var url = 'http://127.0.0.1:7545' // ADD_YOUR_ETHEREUM_NODE_URL QUICKNODE ETC
 var provider = new ethers.providers.JsonRpcProvider(url)
-var address  =  '0x5374d086585AC32009C8d7754a6D732d31a5ED39' // CONTRACT_ADDRESS_FROM_REMIX
+var address  =  '0xE3F1d01AE4CFCE47de2c6843baD3df04De3aA77B' // CONTRACT_ADDRESS_FROM_REMIX
 var abi = [
 	{
 		"inputs": [],
