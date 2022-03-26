@@ -5,6 +5,7 @@ require("@nomiclabs/hardhat-waffle");
 
 module.exports = {
   solidity: "0.6.12",
+  defaultNetwork: "ropsten",
   networks: {
     hardhat: {
         blockGasLimit: 200000,
